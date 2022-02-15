@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    border: 1px solid gray;
+    padding: 25px;
+    margin: 25px 0px;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+}
+
+li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Colors */
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-tile {
+    color: #ffffff;
+    padding: 25px 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    flex-basis: 25%;
+}
+
+.color-1 {
+    background-color: #951F19;
+}
+
+.color-2 {
+    background-color: #B42F22;
+}
+
+.color-3 {
+    background-color: #D1402B;
+}
+
+.color-4 {
+    background-color: #E87138;
+}
+
+.color-5 {
+    background-color: #ED9742;
+}
+
+.color-6 {
+    background-color: #F4BF4F;
+}
+
+.color-7 {
+    background-color: #757575;
+}
+
+.color-8 {
+    background-color: #000000;
+}
+
+/* Fonts */
+
+.font-container {
+    display: flex;
+}
+
+.font-tile {
+    flex-basis: 25%;
+}
+
+.font-1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-1 .light {
+    font-weight: 300;
+}
+
+.font-1 .regular {
+    font-weight: 400;
+}
+
+.font-1 .medium {
+    font-weight: 500;
+}
+
+.font-1 .bold {
+    font-weight: 700;
+}
+
+.font-2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.font-2 .light {
+    font-weight: 300;
+}
+
+.font-2 .regular {
+    font-weight: 400;
+}
+
+.font-2 .medium {
+    font-weight: 500;
+}
+
+.font-2 .bold {
+    font-weight: 700;
+}
